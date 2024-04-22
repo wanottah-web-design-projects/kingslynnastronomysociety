@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<Slides>
+<slideNode jpegURL="4c6860ab2ffb.jpg" thumbURL="4c6860ab2ffbt.jpg" jpegWidth="720" jpegHeight="485"></slideNode>
+<slideNode jpegURL="da297a139533.jpg" thumbURL="da297a139533t.jpg" jpegWidth="720" jpegHeight="537"></slideNode>
+<slideNode jpegURL="ce2e90e9a122.jpg" thumbURL="ce2e90e9a122t.jpg" jpegWidth="389" jpegHeight="495"></slideNode>
+<slideNode jpegURL="88325d282e9f.jpg" thumbURL="88325d282e9ft.jpg" jpegWidth="720" jpegHeight="499"></slideNode>
+<slideNode jpegURL="490345f23f4a.jpg" thumbURL="490345f23f4at.jpg" jpegWidth="716" jpegHeight="540"></slideNode>
+<slideNode jpegURL="bd8e439efb4a.jpg" thumbURL="bd8e439efb4at.jpg" jpegWidth="467" jpegHeight="401"></slideNode>
+<slideNode jpegURL="5910b4107b93.jpg" thumbURL="5910b4107b93t.jpg" jpegWidth="545" jpegHeight="540"></slideNode>
+<slideNode jpegURL="570bd014de3a.jpg" thumbURL="570bd014de3at.jpg" jpegWidth="451" jpegHeight="540"></slideNode>
+<slideNode jpegURL="485b32cb88e1.jpg" thumbURL="485b32cb88e1t.jpg" jpegWidth="720" jpegHeight="480">Orion&apos;s Belt</slideNode>
+<slideNode jpegURL="df882d519496.jpg" thumbURL="df882d519496t.jpg" jpegWidth="565" jpegHeight="540"></slideNode>
+<slideNode jpegURL="a9d83a8a4d31.jpg" thumbURL="a9d83a8a4d31t.jpg" jpegWidth="720" jpegHeight="531">M 51</slideNode>
+</Slides>
+<setup>
+	<infoNode 
+		sliderposxshift="true"
+		of=" of "
+		sec="sec"
+		PhotoWMax= "650"  
+		PhotoHMax= "450" 
+		captionx="440" 
+		captiony="565" 
+		mymusictrack = ""  
+		thumbblocklength="8" 
+		fontcolor="0x000000"  
+		sliderposx = "568"
+		sliderposy = "4"
+		slidervis="true" 
+		verticalthumbs ="true" 
+		slideimagein="true" 
+		slideinimagenudge="false" 
+		thumbxLoc= "50"  
+		photoYLoc="0" 
+		photoXLoc="40" 
+		thumbyLoc= "95" 
+		popslide="false" 
+		thumbsvis= "true" 
+		thumbsize= "50" 
+		thumbgap= "5"  
+		thumbygap= "10" 
+		blur="20" 
+		reflection="false"
+		popborder="true"
+		sliderdoc = "false"
+		AutoHideControls = "false"
+		Autoplay="false"
+		Sliderdefault="5"
+		>
+	</infoNode>
+</setup>

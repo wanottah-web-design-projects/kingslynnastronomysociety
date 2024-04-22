@@ -1,0 +1,58 @@
+/* CSS Document */
+
+/* <!-- // bof: Main body // --> */
+body {
+	width:100%;
+	margin:0px; 
+	padding:0px;
+	}
+/* <!-- // eof: Main body // --> */
+
+
+#container_table {
+	background: #000;
+	opacity: 0.8;
+	}
+
+
+#header_table {
+	background: #000;
+	border-top:none;
+	opacity: 0.8;
+	}
+
+
+#date_text {
+	text-align:right;
+	color: #FFF;
+	font-family:Verdana;
+	font-size:11px;
+	font-style:normal;
+	padding:0px 5px 4px 0px;
+	}
+
+
+#footer_table {
+	background: #000;
+	border-top:none;
+	color: #838384;
+	opacity: 0.8;
+	font-family:Verdana;
+	font-size:11px;
+	font-style:normal;
+	}
+
+#copyright {
+	text-align:center;
+	padding:5px;
+	}
+
+#last_updated {
+	text-align:left;
+	padding:0px 0px 0px 5px;
+	}
+
+#web_master {
+	text-align:right;
+	padding:0px 5px 0px 0px;
+	}

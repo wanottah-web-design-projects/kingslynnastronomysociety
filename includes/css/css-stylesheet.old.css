@@ -1,0 +1,190 @@
+/* CSS Document */
+
+/* <!-- // bof: Main body // --> */
+body {
+	width:100%;
+	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif; 
+	font-size:11px; 
+	font-style:normal;
+	text-align:center;
+	margin:0px; 
+	padding:0px;
+	}
+/* <!-- // eof: Main body // --> */
+
+/* This "container" is needed as IE produces resize induced rendering errors when using the BODY element for a container. */ 
+#container {
+	margin:0 auto;
+	text-align:left;
+	border: thin solid #253448;
+	}
+
+#header {
+	background: #000;
+	border-top:none;
+	color: #FFF;
+	opacity: 0.8;
+	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	}
+
+#logo_image {
+	text-align:center;
+	}
+
+#company_name {
+	font-size:24px;
+	color:#ffffff;
+	text-align:center;
+	}
+
+#menu {
+	background: #000;
+	opacity: 0.8;
+	color: #838384;
+	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	padding:0px 5px 4px 0px;
+	}
+
+#date_text {
+	text-align:right;
+	color: #FFF;
+	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	padding:0px 5px 4px 0px;
+	}
+
+
+/* Rules for navigation menu */
+
+#navmenu
+{
+	list-style-type: none;
+	/* padding-left: 8.5%; */
+}
+
+#navmenu li
+{
+	outline: 1px solid red;
+	width: 90px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;
+}
+
+#navmenu a
+{
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#navmenu .sub1 a
+{
+	margin-top: 3px;
+}
+
+/* The Min-width is needed for Moz to stretch the bodycontent that is shrinkwrapping content */
+/* due to floats. This is only necessary on pages without Tables in the contents. */
+/* Min-width breaks Opera's layout so Width:100% is used instead of Min-width. */
+/* 150 + 610 = 760 */
+#bodycontent {
+	width:430px;
+	}
+
+#content_title {
+	background:none;
+	color:#b0a071;
+	font:bold 14px Tahoma, Geneva, Verdana, sans-serif;
+	padding:15px 0px 0px 15px;
+	}
+
+#content_items {
+	height:600px;
+	margin-bottom:42px;
+	}
+
+#content_items a {
+	color:#6e8eba;
+	background:transparent;
+	text-decoration:none;
+	}
+
+#content_items a:hover {
+	background:transparent;
+	text-decoration:underline;
+	}
+
+#privacy_content {
+	margin-bottom:42px;
+	}
+
+#general_links a {
+	color:#6e8eba;
+	background:transparent;
+	text-decoration:none;
+	}
+
+#general_links a:hover {
+	background:transparent;
+	text-decoration:underline;
+	}
+
+#disabled_link {
+	color:#6e8eba;
+	background:transparent;
+	text-decoration:none;
+	}
+
+/*Left Column Color*/
+/* Background color is needed to counter an IE rendering bug that erases the left column bgcolor */
+/* float:left is needed in Moz to handle extra wide cntent that breaks the width */
+/* Left/Right Margin was removed due to expanded content errors in Moz */
+/* this was used to push the nav/content area in to match the mock-up */
+#bodyshell {
+	background:transparent;
+	margin:0 0 0px;
+	}
+
+#bottom_link_bar {
+	background:transparent;
+	/* background-image:url(../../images/layout/body/link_bar.gif); */
+	font-size:11px;
+	text-align:center;
+	}
+
+#footer {
+	background: #000;
+	border-top:none;
+	color: #838384;
+	opacity: 0.8;
+	display:block;
+	font-family:Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	}
+
+#copyright {
+	text-align:center;
+	padding:5px;
+	}
+
+#last_updated {
+	text-align:left;
+	padding:0px 0px 0px 5px;
+	}
+
+#web_master {
+	text-align:right;
+	padding:0px 5px 0px 0px;
+	}

@@ -1,0 +1,526 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* bof: Page Reset */
+* {
+	margin: 0px; 
+	padding: 0px;
+	}
+/* eof: Page Reset */
+
+
+/* bof: Body Section */
+body {
+	font-family: Verdana;
+	font-style: normal;
+	background: url(../../images/background/background.jpg);
+	}
+/* eof: Body Section */
+
+
+/* bof: Container Section */
+#container_body {
+	width: 960px;
+	/* Set margin - Top Left/Right Bottom */
+	margin: 10px auto 10px;
+	position: relative;
+	opacity: 0.9;
+	}
+/* eof: Container Section */
+
+
+/* bof: Header Container */
+#header_container {
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	background: #000;
+	}
+/* eof: Header Container */
+
+/* header - HTML 5 */
+#header {
+	float: left;
+	width: 100%;
+	}
+
+#header_logo {
+	float: left;
+	width: 132px;
+	text-align: center;
+	margin-top: 3px;
+	/*background: #0F0;*/
+	}
+
+#fas_header_logo {
+	float: left;
+	width: 132px;
+	text-align: center;
+	margin-top: 3px;
+	/*background: #3F0;*/
+	}
+	
+#header_title {
+	float: left;
+	width: 696px;
+	text-align: center;
+	font-size: 28px;
+	color: #FFF;
+	margin-top: 26px;
+	}
+	
+#patron {
+	float: left;
+	width: 696px;
+	text-align: center;
+	font-size: 16px;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*background: #3F9;*/
+	}
+/* eof: Header Section */
+
+
+/* bof: Date Section */
+#date_box {
+	float: left;
+	width: 100%;
+	height: 25px;
+	}
+	
+#date_text {
+	text-align:right;
+	margin-top: 5px;
+	margin-right: 5px;
+	color: #FFF;
+	font-size: 12px;
+	}
+/* eof: Date Section */
+
+
+/* bof: Moon Phase Section */
+#moon_phase {
+	float: left;
+	width: 100%;
+	}
+
+#moon_phase_box {
+	float: left;
+	width: 223px;
+	margin-left: 370px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+#moon_phase_box_border {
+	padding: 2px;
+	background-color: #000000;
+	border: 1px solid #000000;
+	}
+
+#moon_phase_data {
+	padding: 16px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	border: 1px solid #AFB2D8;
+	text-align: center;
+	}
+
+#moon_phase_title {
+	padding-bottom: 7px;
+	color: #FFFFFF;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 11px;
+	letter-spacing: .3em;
+	}
+
+#moon_phase_text {
+	padding-top:5px;
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 10px;
+	font-family: verdana;
+	text-decoration: underline;
+	background: #000000;
+	border: none;
+	}
+	
+#moon_phase a {
+	color: #FFF;
+	text-decoration: underline;
+	}
+	
+#moon_phase a:hover {
+	color: #FFF;
+	}
+/* eof: Moon Phase Section */
+
+
+/* bof: menu_top_divider */
+#menu_top_divider {
+	float: left;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #CCC;
+	}
+/* eof: menu_top_divider */
+
+
+/* bof: menu_bottom_divider */
+#menu_bottom_divider {
+	float: left;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #CCC;
+	}
+/* eof: menu_bottom_divider */
+
+
+/* bof: Breadcrumbs Container */
+#breadcrumb_container {
+	float: left;
+	width: 100%;
+	}
+/* eof: Breadcrumbs Container */
+
+/* bof: breadcrumbs */
+#breadcrumbs {
+	font-size: 11px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+	border-top:none;
+	border-bottom:solid thin #777;
+	/* background: #0FF; */
+	}
+/* eof: breadcrumbs */
+
+<!-- bof: Navigation Menu -->
+#menu_container {
+	float: left;
+	}
+
+#menu_items {
+	float: left;
+	margin-left: 11px;
+	}
+
+/* nav - HTML 5 */
+#nav {
+	float: left;
+	width: 100%;
+	/* background: #123; */
+	}
+	
+#navmenu, .sub1 {
+	font-size: 12px;
+	list-style-type: none;
+	}
+
+#navmenu li {
+	width: 90px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	}
+
+#navmenu a {
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background-color: #555;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	}
+
+#navmenu .sub1 a {
+	margin-top: 3px;
+	}
+	
+#navmenu li:hover > a {
+	color: #fff;
+	background: #555;
+	}
+	
+#navmenu li:hover a:hover {
+	color: #fff;
+	background: #777;
+	}
+	
+#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+	}
+	
+#navmenu li:hover .sub1 {
+	display: block;
+	}
+/* eof: Navigation Menu */
+
+
+/* bof: Article Container */
+#article_container {
+	float: left;
+	width: 100%;
+	border-radius: 5px;
+	background: #000;
+	}
+/* eof: Article Container */
+
+
+/* bof: Article Section */
+/* article - HTML 5 */
+#article {
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+	color: #FFF;
+	}
+	
+#article_information {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	}
+
+/* bof: Article Hyperlink */
+#article_information a {
+	color: #FFF;
+	text-decoration: underline;
+	}
+	
+#article_information a:hover {
+	color: #FFF;
+	}
+	
+/* bof: Article Hyperlink */
+/* article section - HTML 5 */
+#section {
+	float: left;
+	width: 98%;
+	margin: 0 0 10px 10px;
+	padding-bottom: 5px;
+	background: #333;
+	color: #FFF;
+	font-style: normal;
+	font-size: 14px;
+	border-radius: 5px;
+	/* background: #999; */
+	}
+
+/* bof: Section Hyperlink */
+/* article section a */
+#section a {
+	color: #FFF;
+	text-decoration: underline;
+	}
+	
+/* article section a:hover */
+#section a:hover {
+	color: #FFF;
+	}
+/* eof: Section Hyperlink */
+
+#member_photo {
+	float: left;
+	width: 50%;
+	height: 150px;
+	text-align: center;
+	margin-top: 5px;
+	}
+
+#member_details {
+	float: left;
+	margin-top: 5px;
+	}
+
+#section_title {
+	float: left;
+	width: 99%;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	}
+
+#event_photo {
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
+#event_details {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	line-height: 20px;
+	}
+	
+#event_list {
+	margin-left: 20px;
+	}
+	
+
+/* bof: Link Details Container */
+#link_container {
+	float: left;
+	width: 50%;
+	}
+/* eof: Link Details Container */
+
+/* bof: Link Details */
+#link_details {
+	float: left;
+	width: 90%;
+	height: 150px;
+	margin-left: 50px;
+	margin-top: 5px;
+	}
+/* bof: Link Details */
+
+/* bof: Link Url */
+#link_url {
+	float: left;
+	margin-top: 5px;
+	}
+/* bof: Link Url */
+
+/* eof: Article Section */
+
+
+/* bof: Affiliates Section */
+#affiliates {
+	float: left;
+	width: 100%;
+	color: #FFF;
+	}
+	
+#affiliate_information {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	margin-left: 14px;
+	}
+	
+#cfds_logo {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* background: #636; */
+	}
+/* eof: Affiliates Section */
+
+
+/* bof: divider */
+#divider {
+	float: left;
+	width: 100%;
+	height: 1px;
+	background: #777;
+	}
+/* eof: divider */
+
+
+/* bof: Footer Section */
+#footer {
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	color: #CCC;
+	}
+
+#facebook {
+	float: left;
+	width: 100%;
+	}
+
+#facebook_logo {
+	float: left;
+	width: 100%;
+	text-align: center;
+	}
+	
+#copyright {
+	float: left;
+	width: 100%;
+	text-align:center;
+	/* Top Right Bottom Left */
+	padding: 5px 0 5px 0;
+	}
+
+#last_update {
+	width: 50%;
+	float: left;
+	text-align:left;
+	margin-left: 5px;
+	padding: 5px 0px 5px 0px;
+	}
+
+#web_master {
+	width: 49%;
+	float: left;
+	text-align:right;
+	padding: 5px 0px 5px 0px;
+	}
+/* eof: Footer Section */
+
+/* bof: Hit Counter */
+#hit_counter {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+#text_container {
+	width: 250px;
+	margin-left: 355px;
+	border-radius: 5px;
+	background: #111;
+	}
+
+#hit_counter_text {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #FFF;
+	}
+
+#counter_container {
+	width: 100%;
+	text-align: center;
+	}
+
+#hit_counter_data {
+	width: 250px;
+	}
+/* eof: Hit Counter */
